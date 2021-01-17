@@ -7,6 +7,7 @@ addons:
   apt:
     packages:
       - ant
- install: ant deps
+ install: 
+  - ant deps
  script: 
   - ant test
