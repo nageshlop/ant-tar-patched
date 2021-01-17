@@ -1,6 +1,9 @@
 language: java
 dist: xenial
+arch:
+  - amd64
+  - ppc64le
 addons:
   apt:
     packages:
-      - openjdk11
+      - openjdk8
