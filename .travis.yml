@@ -6,4 +6,4 @@ arch:
 addons:
   apt:
     packages:
-      - ant
+      - ant -f build.xml
