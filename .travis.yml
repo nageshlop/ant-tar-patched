@@ -1,0 +1,6 @@
+language: java
+dist: xenial
+addons:
+  apt:
+    packages:
+      - openjdk11
