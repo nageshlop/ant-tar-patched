@@ -6,4 +6,5 @@ arch:
 addons:
   apt:
     packages:
-      - ant -f build.xml
+      - ant
+install: ant deps
