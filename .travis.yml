@@ -8,4 +8,5 @@ addons:
     packages:
       - ant
  install: ant deps
- script: ant test
+ script: 
+  - ant test
