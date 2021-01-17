@@ -1,9 +1,11 @@
-language: java
 dist: xenial
+language: java
 arch:
   - amd64
   - ppc64le
 addons:
   apt:
     packages:
-      - openjdk8
+      - ant
+ install: ant deps
+ script: ant test
