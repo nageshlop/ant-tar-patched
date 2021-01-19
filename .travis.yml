@@ -6,4 +6,4 @@ arch:
 before_install:
   - sudo apt-get install ant
 script: 
-  - ant -f /home/travis/build/nageshlop/ant-tar-patched/build.xml
+  - ant -f ${TRAVIS_BUILD_DIR}/build.xml
